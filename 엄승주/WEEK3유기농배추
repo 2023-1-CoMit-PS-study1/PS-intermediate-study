@@ -1,0 +1,90 @@
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+
+
+void findLet(bool ** field, int x, int y){
+    field[x][y]=0;
+    if(field[x+1][y]==1){   
+        findLet(field, x+1, y);       
+    }
+    if(field[x][y+1]==1){   
+        findLet(field, x, y+1);       
+    }
+    if(field[x-1][y]==1){   
+        findLet(field, x-1, y);       
+    }
+    if(field[x][y-1]==1){   
+        findLet(field, x, y-1);       
+    }
+
+}
+
+
+
+
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    int time;
+    cin>> time;
+    queue <int> q;  
+
+for(int a=0;a<time; a++){
+    int M,N,K;
+    cin >> M >> N >> K;
+
+    M=M+2;
+    N=N+2;
+
+
+    bool** field = new bool*[N]; // allocate M rows
+    for (int i = 0; i < N; ++i) {
+        field[i] = new bool[M]; // allocate N columns for each row
+    }
+    
+
+    for(int i=0; i<N; i++){           //make edge as 0 
+        for(int j=0; j<M; j++){
+            field[i][j]=0;
+        }
+    }
+
+
+
+    for(int i=0; i<K ; i++){ //initalize feild
+        int x, y;
+        cin >>x >>y;
+        field[y+1][x+1]=1;
+    }
+
+
+    int bug=0;
+
+    for(int i=1; i<N-1; i++){           //find bug
+        for(int j=1; j<M-1; j++){
+            if(field[i][j] == 1){   //if find 1
+
+                bug++;              // +1
+                findLet(field, i,j);
+
+            }
+        }
+
+    }
+
+
+    cout<<bug<<endl;
+
+    for (int i = 0; i < N; ++i) {
+        delete[] field[i]; // free memory for each row
+    }
+    delete[] field;
+
+
+}
+}
