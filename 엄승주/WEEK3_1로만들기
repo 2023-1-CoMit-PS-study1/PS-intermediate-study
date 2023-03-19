@@ -1,0 +1,35 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int allCase[1000001];
+
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    int x;
+    cin >>x;
+    
+    allCase[1]=0;
+    allCase[2]=1;
+    allCase[3]=1;
+
+    for(int i=4; i<=x; i++){    //bottom up
+        if(i%3!=0 && i%2!=0){
+            allCase[i]=allCase[i-1]+1;
+        }
+        else if(i%3==0 && i%2==0){
+            allCase[i]=min(min(allCase[i-1]+1,allCase[i/2]+1), allCase[i/3]+1);
+        }
+        else if(i%3==0){
+            allCase[i]=min(allCase[i-1]+1,  allCase[i/3]+1);
+        }
+        else{
+            allCase[i]=min(allCase[i-1]+1,  allCase[i/2]+1);
+        }
+    }
+
+    cout<< allCase[x] <<endl;
+
+}
