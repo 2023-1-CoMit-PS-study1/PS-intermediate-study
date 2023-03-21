@@ -75,7 +75,7 @@ int searchCabbage(int i, int j, int** arr, bool** visited, int M, int N)
         int next_Y = Direction_Y[dir];
 
         // Segmentation Fault 방지
-        if((next_X >= 0  && next_Y >= 0 && next_X < M && next_Y < N))
+        if((i + next_X >= 0  && j + next_Y >= 0 && i + next_X < M && j + next_Y < N))
         {
             if(!visited[i + next_X][j + next_Y] && arr[i + next_X][j + next_Y] == 1)
                 searchCabbage(i + next_X, j + next_Y, arr, visited, M, N);
