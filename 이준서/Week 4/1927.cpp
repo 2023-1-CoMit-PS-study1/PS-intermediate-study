@@ -9,8 +9,8 @@ int main() {
 
     priority_queue<int, vector<int>, greater<int>> arr;     // 우선순위 큐 생성(최소 힙)
     int res[100000];            // result 값을 저장할 배열 생성
-
     int num, zeroCount = 0, index = 0;
+    
     for(int i=0; i<N; i++) {
         cin >> num;
         
