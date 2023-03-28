@@ -4,7 +4,6 @@
 using namespace std;
 
 int StairClimbing(int arr[], int size, int currentStair, int continuity);
-int MaxCompare(int a, int b);
 
 int main() {
     int num;
