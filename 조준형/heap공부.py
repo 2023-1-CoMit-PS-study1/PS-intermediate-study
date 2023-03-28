@@ -11,3 +11,15 @@ heapq.heappush(heap, 10)
 heapq.heappush(heap, 20)
 
 print(heap)
+#[10, 50, 20] 이렇게 나오는데 이게 힙으로 정렬이 된 상태라고 한다. 기본적으로 최소 힙인가보다
+
+heap2 = [50 ,10, 20]
+heapq.heapify(heap2)
+
+print(heap2)
+
+
+result = heapq.heappop(heap)
+
+print(result)
+print(heap)
