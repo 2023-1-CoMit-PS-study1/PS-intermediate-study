@@ -12,11 +12,11 @@
 | **주차**  | **날짜**      | **문제1**                               | **문제2**                       | **문제3**                       |
 |-----------|---------------|-----------------------------------------|---------------------------------|--------------------------------|
 | 1주차     | 23.03.07(2)   | -                                       | -                               | -                              |
-| 2주차     | 23.03.13(3)   | [체스판 다시 칠하기](https://boj.kr/1018) | [단어 정렬](https://boj.kr/1181) | [수 찾기](https://boj.kr/1920) |
-| 3주차     | 23.03.20(4)   | [유기농 배추](https://boj.kr/1012) | [1로 만들기](https://boj.kr/1463) | [나는야 포켓몬 마스터 이다솜](https://boj.kr/1620) |
-| 4주차     | 23.03.27(5)   | [계단 오르기](https://boj.kr/2579) | [최소 힙](https://boj.kr/1927) | [바이러스](https://boj.kr/2606) |
-| 5주차     | 23.04.03(6)   | [주사위 굴리기](https://boj.kr/14499) | [스타트와 링크](https://boj.kr/14889) | - |
-| 6주차     | 23.04.24(9)   | [토마토](https://boj.kr/7576) | - | - |
+| 2주차     | 23.03.13(3)   | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) | [단어 정렬](https://www.acmicpc.net/problem/1181) | [수 찾기](https://www.acmicpc.net/problem/1920) |
+| 3주차     | 23.03.20(4)   | [유기농 배추](https://www.acmicpc.net/problem/1012) | [1로 만들기](https://www.acmicpc.net/problem/1463) | [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) |
+| 4주차     | 23.03.27(5)   | [계단 오르기](https://www.acmicpc.net/problem/2579) | [최소 힙](https://www.acmicpc.net/problem/1927) | [바이러스](https://www.acmicpc.net/problem/2606) |
+| 5주차     | 23.04.03(6)   | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | [스타트와 링크](https://www.acmicpc.net/problem/14889) | - |
+| 6주차     | 23.04.24(9)   | [토마토](https://www.acmicpc.net/problem/7576) | - | - |
 | 7주차     | 23.05.01(10)  |   |   |   |
 | 8주차     | 23.05.08(11)  |   |   |   |
 | 9주차     | 23.05.15(12)  |   |   |   |
