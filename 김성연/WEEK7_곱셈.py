@@ -6,8 +6,8 @@ def power(a, b):
         t = power(a, b//2)
         return t**2 % z
     else:
-        return power(a, b-1) * a
+        return power(a, b-1) * a % z
 
 x,y,z = map(int,sys.stdin.readline().rstrip().split())
 
-print(power(x,y) % z)
+print(power(x,y))
