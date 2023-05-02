@@ -17,10 +17,10 @@
 | 4주차     | 23.03.27(5)   | [계단 오르기](https://www.acmicpc.net/problem/2579) | [최소 힙](https://www.acmicpc.net/problem/1927) | [바이러스](https://www.acmicpc.net/problem/2606) |
 | 5주차     | 23.04.03(6)   | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | [스타트와 링크](https://www.acmicpc.net/problem/14889) | - |
 | 6주차     | 23.04.24(9)   | [토마토](https://www.acmicpc.net/problem/7576) | - | - |
-| 7주차     | 23.05.01(10)  |   |   |   |
-| 8주차     | 23.05.08(11)  |   |   |   |
-| 9주차     | 23.05.15(12)  |   |   |   |
-| 10주차    | 23.05.22(13)  |   |   |   |
+| 7주차     | 23.05.02(10)  | [곱셈](https://www.acmicpc.net/problem/1629) | - | - |
+| 8주차     | 23.05.09(11)  |   |   |   |
+| 9주차     | 23.05.16(12)  |   |   |   |
+| 10주차    | 23.05.23(13)  |   |   |   |
 
 
 
