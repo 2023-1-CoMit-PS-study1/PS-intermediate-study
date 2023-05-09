@@ -1,7 +1,15 @@
 def mux(a, b, c):
-    temp = [0]*(c+2)    
+    temp = []
+    n = 0
     for i in range(c):
-        temp[i] = a**(i+1) % c
+        cal = a**(i+1) % c
+        if (cal in temp):
+            break
+        else:
+            temp.append(cal)
+            n += 1
+        
+
     
 
     answer = temp
