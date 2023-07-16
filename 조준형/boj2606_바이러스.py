@@ -27,5 +27,5 @@ for i in range(linked_com_number):
     graph[str(a)].append(str(b))
     graph[str(b)].append(str(a))
 
-print(graph)
+#print(graph)
 print(bfs(graph, '1'))
